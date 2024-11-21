@@ -1,6 +1,7 @@
 // IMPORT DAS BIBLIOTECAS
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class PlayerCode : MonoBehaviour 
@@ -8,6 +9,7 @@ public class PlayerCode : MonoBehaviour
     public float speed = 5f; // velocidade de movimento
     private Animator animator; // variável animator: Animator
     private Rigidbody2D rb; // variável rb: Rigidbodt2D
+    private bool isAttacking = false; // verifica se está atacando
 
     private void Start() // executa apenas no início do jogo
     {
@@ -17,18 +19,48 @@ public class PlayerCode : MonoBehaviour
 
     private void Update() // executa em série (atualizando)
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal"); // define variável horizontalInput: detecta o controle (-1:esquerda, 0:idle, 1:direita)
+        // CHAMA AS FUNÇÕES
+        Move();
+        Attack();
+    }
 
-        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y); // define a velocidade do rb com base na direção
+    private void Move()
+    {
+        if (isAttacking) return; // se mover e estiver atacando ao mesmo tempo, cancela a animação
 
-        // CONTROLE DE ANIMAÇÕES DO OBJETO
-        if (horizontalInput != 0)
+        float tecla = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(tecla * speed, 0);
+
+        if (tecla < 0)
         {
-            animator.SetInteger("transition", 1);  // transição de andar
+            transform.eulerAngles = new Vector2(0, 180);
+            animator.SetInteger("transition", 1);
+        }
+        else if (tecla > 0)
+        {
+            transform.eulerAngles = new Vector2(0, 0);
+            animator.SetInteger("transition", 1);
+        }
+        else if (tecla == 0)
+        {
+            animator.SetInteger("transition", 0);
+        }
+    }
+
+    private void Attack()
+    {
+        bool mouse1 = Input.GetMouseButtonDown(0);
+
+        if (mouse1 == true)
+        {
+            isAttacking = true;
+            animator.SetInteger("transition", 2);
         }
         else
         {
-            animator.SetInteger("transition", 0);  // transição de idle
+            isAttacking = false;
         }
+
     }
+
 }
