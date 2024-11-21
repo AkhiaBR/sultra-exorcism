@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 5c1c6c0883c1c184f9f7e69decb6591e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack1
+    second: {fileID: 7400000, guid: dcbcbe40a6cc1254b824e1e3274ad12c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack2
+    second: {fileID: 7400000, guid: 98bf713c5bd622a4aba0c447d186478d, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: ee0ce6765ef181f4fb00955d12c18e76, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Walk (Not so good)
+    second: {fileID: 7400000, guid: bd06bada9598dbf42820639d37dd92a8, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638678046801250959
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: BlueDemon_Frame_0
+    originalName: 
+    pivot: {x: 0.007575737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 66
+      height: 61
+    spriteID: fc5e8537a52193c48bfbf779d1994abc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: BlueDemon_Frame_1
+    originalName: 
+    pivot: {x: -0.0076922867, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 443
+      y: 208
+      width: 65
+      height: 60
+    spriteID: 2676c7b156ee5eb458ed4733102ecd6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 443, y: 208}
+  - name: BlueDemon_Frame_2
+    originalName: 
+    pivot: {x: -0.023437558, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 208
+      width: 64
+      height: 61
+    spriteID: fd4ee1ba476ceb0409345f42afa87516
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 299, y: 208}
+  - name: BlueDemon_Frame_3
+    originalName: 
+    pivot: {x: -0.0076922867, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 208
+      width: 65
+      height: 61
+    spriteID: 3e8046f2601a3124491bc1be3cf40daf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 208}
+  - name: BlueDemon_Frame_4
+    originalName: 
+    pivot: {x: 0.007575737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 208
+      width: 66
+      height: 61
+    spriteID: 6382e49cedc2a7643a7f201a486eedc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 208}
+  - name: BlueDemon_Frame_5
+    originalName: 
+    pivot: {x: -0.039682552, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 63
+      height: 61
+    spriteID: b4bd40ebe87c8ac419e64771561506c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: BlueDemon_Frame_6
+    originalName: 
+    pivot: {x: -0.039682552, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 277
+      width: 63
+      height: 61
+    spriteID: b199069d23b0a6a4eaddde84bdf71237
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 277}
+  - name: BlueDemon_Frame_7
+    originalName: 
+    pivot: {x: -0.039682552, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 277
+      width: 63
+      height: 60
+    spriteID: 78f624bd7768b884c922f4076f355ef8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 277}
+  - name: BlueDemon_Frame_8
+    originalName: 
+    pivot: {x: -0.023437558, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 371
+      y: 208
+      width: 64
+      height: 61
+    spriteID: 415cda2f7907edd438468110013fe397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 371, y: 208}
+  - name: BlueDemon_Frame_9
+    originalName: 
+    pivot: {x: 0.007575737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 208
+      width: 66
+      height: 61
+    spriteID: 05b8ae87b23191345a86d60f63f33b14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 208}
+  - name: BlueDemon_Frame_10
+    originalName: 
+    pivot: {x: -0.039682552, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 277
+      width: 63
+      height: 61
+    spriteID: 4a3fcdc6f67f2b84bb5ba4500ac2ecaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 277}
+  - name: BlueDemon_Frame_11
+    originalName: 
+    pivot: {x: 0.43534485, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 116
+      height: 60
+    spriteID: 83c48df8d2d3b1b4b82226e085841931
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: BlueDemon_Frame_12
+    originalName: 
+    pivot: {x: 0.19135803, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 140
+      width: 81
+      height: 60
+    spriteID: 5a80efe0d7939754c9bc92d04c2cef5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 140}
+  - name: BlueDemon_Frame_13
+    originalName: 
+    pivot: {x: 0.39351854, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 140
+      width: 108
+      height: 60
+    spriteID: 64fecbbac7c00314d8fd08710e8dc544
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 140}
+  - name: BlueDemon_Frame_14
+    originalName: 
+    pivot: {x: 0.42035398, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 395
+      y: 72
+      width: 113
+      height: 60
+    spriteID: e126e60ba92fdae43a6396181c726278
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 395, y: 72}
+  - name: BlueDemon_Frame_15
+    originalName: 
+    pivot: {x: 0.44491526, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 72
+      width: 118
+      height: 60
+    spriteID: e0f1f1ba685429649b44c9ab9fc6a1f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 72}
+  - name: BlueDemon_Frame_16
+    originalName: 
+    pivot: {x: 0.46311477, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 72
+      width: 122
+      height: 60
+    spriteID: c138eb8e3f9bacd44b013d5ade9b4603
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 72}
+  - name: BlueDemon_Frame_17
+    originalName: 
+    pivot: {x: 0.48425195, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 127
+      height: 60
+    spriteID: 0672039777a0602468ecd969c3eae0a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: BlueDemon_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 131
+      height: 60
+    spriteID: 1176d86dc8fd01444874cc47ca4d7c9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: BlueDemon_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 4
+      width: 131
+      height: 60
+    spriteID: 1a9f2f52c6a5013429402b68ed289d00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 4}
+  - name: BlueDemon_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 4
+      width: 131
+      height: 60
+    spriteID: c804cc0be2fa7b2449cb5b05dd13583b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 4}
+  - name: BlueDemon_Frame_21
+    originalName: 
+    pivot: {x: 0.24712643, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 4
+      width: 87
+      height: 60
+    spriteID: 56decc7caa30624418289fc0fe420ae8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 4}
+  - name: BlueDemon_Frame_22
+    originalName: 
+    pivot: {x: 0.007575737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 333
+      y: 140
+      width: 66
+      height: 60
+    spriteID: d32a2acdb55d3d84eb2d21c7d511f540
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 333, y: 140}
+  - name: BlueDemon_Frame_23
+    originalName: 
+    pivot: {x: -0.023809582, y: -0.016666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 277
+      width: 63
+      height: 60
+    spriteID: 5ce35688a8474a342ae6b08f4de7fb7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 277}
+  - name: BlueDemon_Frame_24
+    originalName: 
+    pivot: {x: -0.023809582, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 277
+      width: 63
+      height: 58
+    spriteID: f6b47d23901e6e84d998b9ab6a9b1c54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 430, y: 277}
+  - name: BlueDemon_Frame_25
+    originalName: 
+    pivot: {x: -0.05737702, y: -0.035087716}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 346
+      width: 61
+      height: 57
+    spriteID: fd21af7963bc1e945b64ec86610747e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 346}
+  - name: BlueDemon_Frame_26
+    originalName: 
+    pivot: {x: 0.007575737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 407
+      y: 140
+      width: 66
+      height: 59
+    spriteID: 79add01c3c7716b419533d7af0fbe6e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 407, y: 140}
+  - name: BlueDemon_Frame_27
+    originalName: 
+    pivot: {x: -0.023809582, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 277
+      width: 63
+      height: 60
+    spriteID: d290455fa5a012f45b4c1084be349970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 359, y: 277}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 655268407
+    name: BlueDemon
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: BlueDemon_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 65
+        y: 0
+        width: 66
+        height: 61
+      spriteId: fc5e8537a52193c48bfbf779d1994abc
+    - name: BlueDemon_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 66
+        y: 0
+        width: 65
+        height: 60
+      spriteId: 2676c7b156ee5eb458ed4733102ecd6b
+    - name: BlueDemon_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 67
+        y: 0
+        width: 64
+        height: 61
+      spriteId: fd4ee1ba476ceb0409345f42afa87516
+    - name: BlueDemon_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 66
+        y: 0
+        width: 65
+        height: 61
+      spriteId: 3e8046f2601a3124491bc1be3cf40daf
+    - name: BlueDemon_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 65
+        y: 0
+        width: 66
+        height: 61
+      spriteId: 6382e49cedc2a7643a7f201a486eedc5
+    - name: BlueDemon_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 68
+        y: 0
+        width: 63
+        height: 61
+      spriteId: b4bd40ebe87c8ac419e64771561506c9
+    - name: BlueDemon_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 68
+        y: 0
+        width: 63
+        height: 61
+      spriteId: b199069d23b0a6a4eaddde84bdf71237
+    - name: BlueDemon_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 68
+        y: 0
+        width: 63
+        height: 60
+      spriteId: 78f624bd7768b884c922f4076f355ef8
+    - name: BlueDemon_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 67
+        y: 0
+        width: 64
+        height: 61
+      spriteId: 415cda2f7907edd438468110013fe397
+    - name: BlueDemon_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 65
+        y: 0
+        width: 66
+        height: 61
+      spriteId: 05b8ae87b23191345a86d60f63f33b14
+    - name: BlueDemon_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 68
+        y: 0
+        width: 63
+        height: 61
+      spriteId: 4a3fcdc6f67f2b84bb5ba4500ac2ecaf
+    - name: BlueDemon_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 15
+        y: 0
+        width: 116
+        height: 60
+      spriteId: 83c48df8d2d3b1b4b82226e085841931
+    - name: BlueDemon_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 50
+        y: 0
+        width: 81
+        height: 60
+      spriteId: 5a80efe0d7939754c9bc92d04c2cef5e
+    - name: BlueDemon_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 23
+        y: 0
+        width: 108
+        height: 60
+      spriteId: 64fecbbac7c00314d8fd08710e8dc544
+    - name: BlueDemon_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 18
+        y: 0
+        width: 113
+        height: 60
+      spriteId: e126e60ba92fdae43a6396181c726278
+    - name: BlueDemon_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 13
+        y: 0
+        width: 118
+        height: 60
+      spriteId: e0f1f1ba685429649b44c9ab9fc6a1f0
+    - name: BlueDemon_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 9
+        y: 0
+        width: 122
+        height: 60
+      spriteId: c138eb8e3f9bacd44b013d5ade9b4603
+    - name: BlueDemon_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 4
+        y: 0
+        width: 127
+        height: 60
+      spriteId: 0672039777a0602468ecd969c3eae0a7
+    - name: BlueDemon_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 60
+      spriteId: 1176d86dc8fd01444874cc47ca4d7c9a
+    - name: BlueDemon_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 60
+      spriteId: 1a9f2f52c6a5013429402b68ed289d00
+    - name: BlueDemon_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 60
+      spriteId: c804cc0be2fa7b2449cb5b05dd13583b
+    - name: BlueDemon_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 44
+        y: 0
+        width: 87
+        height: 60
+      spriteId: 56decc7caa30624418289fc0fe420ae8
+    - name: BlueDemon_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 65
+        y: 0
+        width: 66
+        height: 60
+      spriteId: d32a2acdb55d3d84eb2d21c7d511f540
+    - name: BlueDemon_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 67
+        y: 1
+        width: 63
+        height: 60
+      spriteId: 5ce35688a8474a342ae6b08f4de7fb7b
+    - name: BlueDemon_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 67
+        y: 2
+        width: 63
+        height: 58
+      spriteId: f6b47d23901e6e84d998b9ab6a9b1c54
+    - name: BlueDemon_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 69
+        y: 2
+        width: 61
+        height: 57
+      spriteId: fd21af7963bc1e945b64ec86610747e9
+    - name: BlueDemon_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 65
+        y: 0
+        width: 66
+        height: 59
+      spriteId: 79add01c3c7716b419533d7af0fbe6e8
+    - name: BlueDemon_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 67
+        y: 0
+        width: 63
+        height: 60
+      spriteId: d290455fa5a012f45b4c1084be349970
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 131, y: 61}
