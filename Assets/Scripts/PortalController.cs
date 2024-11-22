@@ -15,5 +15,6 @@ public class NewBehaviourScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         player.transform.position = destination.transform.position;
+        Destroy(gameObject);
     }
 }

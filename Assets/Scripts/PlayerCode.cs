@@ -39,19 +39,6 @@ public class PlayerCode : MonoBehaviour
         Death();
     }
 
-    void OnCollisionEnter2D(Collision2D colisao)
-    {
-        if (colisao.gameObject.CompareTag("Inimigo")) 
-        {
-            currentHealth -= 20;
-
-            if(currentHealth <= 0)
-            {
-                Destroy(gameObject);
-            }
-        }
-    }
-
     private void Move()
     {
         if (isAttacking) return; // se mover e estiver atacando ao mesmo tempo, cancela a animação

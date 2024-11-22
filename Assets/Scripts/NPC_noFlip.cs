@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PatrulhaNPC : MonoBehaviour
+public class NPC_noFlip : MonoBehaviour
 {
     public float speed = 2f;
     public bool ground = true;
@@ -18,15 +18,8 @@ public class PatrulhaNPC : MonoBehaviour
         if (directionTimer >= changeDirectionInterval)
         {
             speed *= -1;
-            FlipSprite();
             directionTimer = 0f;
         }
     }
 
-    void FlipSprite()
-    {
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
-    }
 }
