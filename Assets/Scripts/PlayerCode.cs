@@ -90,7 +90,7 @@ public class PlayerCode : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift)) // quando shift é pressionado
+        if (Input.GetKeyDown(KeyCode.Q)) // quando Q é pressionado
         {
             StartCoroutine(PerformDash());
         }
@@ -116,7 +116,7 @@ public class PlayerCode : MonoBehaviour
 
     private void Jump()
     {
-        bool mouse2 = Input.GetMouseButtonDown(1);
+        bool mouse2 = Input.GetKeyDown(KeyCode.Space);
 
         if (mouse2 == true)
         {
