@@ -36,8 +36,20 @@ public class PlayerCode : MonoBehaviour
             Attack();
         }
         Dash();
-        Hit();
         Death();
+    }
+
+    void OnCollisionEnter2D(Collision2D colisao)
+    {
+        if (colisao.gameObject.CompareTag("Inimigo")) 
+        {
+            currentHealth -= 20;
+
+            if(currentHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     private void Move()
@@ -78,12 +90,6 @@ public class PlayerCode : MonoBehaviour
         }
 
     }
-
-    private void Hit()
-    {
-
-    }
-
     private void Death()
     {
 
